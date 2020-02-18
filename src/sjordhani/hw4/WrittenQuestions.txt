@@ -1,0 +1,56 @@
+Stefano Jordhani
+HW4 
+Written Questions
+
+Q1. AVL tree without rotation (20 pts)
+--------------------------------------
+
+Q1.1 Remove Rotations
+
+<< List the 12 numbers in a different ordering, one which eliminates any rotations >>
+		<8,10,4,11,9,6,2,12,7,5,3,1>
+
+Q1.2 Model Number of rotations
+
+<< include the table that is generated from Question 1>>
+				
+				Number of rotations:0
+				Height of tree:3
+				N	MaxHt.	MaxRot.
+				1	 0		0
+				3	 1		2
+				7	 3		8
+				15	 4		17
+				31	 5		35	
+				63	 7		62
+				127	 8		114
+				255	 9		229
+				511	 10		412
+				1023 12		806
+				2047 13		1576
+				4095 14		3060
+
+Q1.3 Bonus question 1 pt. Can you find an arrangement that
+     produces a tree whose height is four or prove that one can't exist? 
+     
+     { 12, 1, 11, 2, 10, 3, 5, 6, 4, 7, 8, 9 }
+     
+Q1.4 Bonus question 1 pt. Can you find an arrangement that
+     produces a tree whose height is five or prove that one can't exist?
+     
+     An AVL tree is valid only if it is balanced throughout the whole tree and if we were to have 
+     a height of 5 then the tree would not be balanced correctly. The fifth row in the tree 
+     contains 16 items which means we wouldn't have enough items considering we are only using numbers
+     1-12. 
+
+
+Q2. Composite revisited (80 pts)
+--------------------------------------
+
+Complete Composite class
+
+
+Q3. Bonus Question (1 pt)
+--------------------------------------
+
+Complete BinaryMaxHeap implementation so BonusQuestion class works properly.
